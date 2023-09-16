@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<head>
+    <title>Tugas Week 5</title>
+    <link type="text/css" rel="stylesheet" href="style.css"
+</head>
+
+<body>
+    <table>
+        <tr>
+            <td>
+                <form autocomplete="off" onsubmit="onFormSubmit()">
+                    <div>
+                        <label for="nama">NAMA</label>
+                        <input type="text" name="nama" id="nama">
+                    </div>
+                    <div>
+                        <label for="umur">UMUR</label>
+                        <input type="number" name="umur" id="umur">
+                    </div>
+                    <div>
+                        <label for="uangSangu">UANG SANGU</label>
+                        <input type="number" name="uangSangu" id="uangSangu">
+                    </div>
+
+                    <div class="form_action--button">
+                        <input type="submit" value="Submit">
+                        <input type="reset" value="Reset">
+                    </div>
+                </form>
+
+                <td>
+                    <table class="list" id="storeList">
+                        <thead>
+                            <tr>
+                                <th>NAMA</th>
+                                <th>UMUR</th>
+                                <th>UANG SANGU</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                        </tbody>
+                    </table>
+                </td>
+            </td>
+        </tr>
+    </table>
+    <script type="text/javascript" src="./script.js"></script>
+</body>
+</html>
